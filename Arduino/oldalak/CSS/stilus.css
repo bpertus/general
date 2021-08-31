@@ -1,0 +1,37 @@
+@font-face {
+    font-family: "sajat";
+    src: url("..\swissko.ttf");
+}
+@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
+html{
+    background-color: cadetblue;
+    font-family: sajat;
+    text-align: left;  
+}
+
+h2{
+    font-family: 'Allison', cursive;
+}
+
+#udvozlet{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(50, 42, 165); 
+}
+
+
+p
+{
+    color:rgb(59, 10, 10);
+    font-size: 24px;
+font-family: sajat;
+/* text-align: center; 
+text-transform:lowercase;
+line-height:0vw;
+line-height: 10; */
+
+}
+img
+{
+    width: 300px;height: 300px;
+    margin-left: 60px;
+}
