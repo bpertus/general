@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <h1>Login </h1>
+    <form>
+        <fieldset>
+            <legend>Személyes adadtok</legend>
+            <div>
+                <label for="email_id">Email:</label>
+                <input id="email_id" type="email" name="Email">
+
+            </div>
+            <div>
+                <label for="pass_id">Jelszó:</label>
+                <input id="pass_id" type="pass" name="Pwd">
+            </div>
+            <div>
+                <label for="expert_id">Expert vagyok:</label>
+                <input id="expert_id" type="checkbox" name="expert">
+
+            </div>
+            <div>
+                <label for="raer_id">Ráér:</label>
+                <input id="raer_id" type="checkbox" name="Ráér" checked>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Megrendelés</legend>
+            <h2>Hány tereméket kérsz?</h2>
+            <div>
+
+                <input id="egy_db_id" type="radio" name="db" value="1">
+                <label for="egy_db_id">1db:</label>
+            </div>
+            <div>
+
+                <input id="ket_db_id" type="radio" name="db" value="2">
+                <label for="ket_db_id">2-10db között:</label>
+            </div>
+            <div>
+
+                <input id="tiz_db_id" type="radio" name="db" value="10">
+                <label for="tiz_db_id">Több mint 10 db:</label>
+            </div>
+        </fieldset>
+
+        <div>
+            <button id="gomb_id">Login</button>
+        </div>
+    </form>
+
+
+</html>
+</body>
